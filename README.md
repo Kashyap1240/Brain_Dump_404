@@ -7,11 +7,11 @@ This markdown file documents my progress, important concepts, and serves as a qu
 
 ## Table of Contents
 
-| Topic                            | Description                     | Jump Link                        |
-|----------------------------------|---------------------------------|---------------------------------|
-| [Patterns](#Pattern)             | Pattern Printing                | [Go](#introduction)              
-| [Arrays](#arrays)                | Array - 1D                      | [Go](#arrays)                   |
-| [Arrays](#arrays)                | Array - 2D                      | [Go](#arrays)                   |
+| Topic                            | Description                     | Jump Link                       | Pdf Notes                       |
+|----------------------------------|---------------------------------|---------------------------------|---------------------------------|
+| [Patterns](#Pattern)             | Pattern Printing                | [Go](#introduction)             |---------------------------------|
+| [Arrays](#arrays)                | Array - 1D                      | [Go](#arrays)                   |---------------------------------|
+| [Arrays](#arrays)                | Array - 2D                      | [Go](#arrays)                   |---------------------------------|
 
 
 
