@@ -6,12 +6,12 @@ public class Two_D_Array_Demo {
         System.out.println(arr);  // add
         System.out.println(arr[1]); // add
         System.out.println(arr[1][2]); // element
-        int[][] other = arr; // reference changed
+        int[][] other = arr; // reference changed, no new array created
 
         // row length
-        int row = arr.length;// 3
+        int row = arr.length;
         // col length
-        int col = arr[0].length;// 4
+        int col = arr[0].length;
         System.out.println(row);
         System.out.println(col);
     }
