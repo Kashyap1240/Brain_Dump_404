@@ -7,7 +7,7 @@ public class Input_Output {
         int col = sc.nextInt();
         int[][] arr = new int[row][col];
 
-        // takeing input in array
+        // taking input in array
         for(int i = 0; i < arr.length; i++){
             for(int j = 0; j < arr[0].length; j++){
                 arr[i][j] = sc.nextInt();
@@ -24,7 +24,7 @@ public class Input_Output {
             for(int j = 0; j < arr[0].length; j++){
                 System.out.print(arr[i][j]+" ");
             }
-            System.out.println(); // change line wrt to every coloumn
+            System.out.println(); // change line wrt to every column
         }
     }
 }
