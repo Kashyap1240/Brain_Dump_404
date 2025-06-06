@@ -16,10 +16,10 @@ public class Find_Element {
                 return true;
             }
             else if(arr[row][col] > item){
-                col--;
+                col = col - 1;
             }
             else {
-                row++;
+                row = row + 1;
             }
         }
         return false;
