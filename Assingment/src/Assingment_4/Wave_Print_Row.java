@@ -1,6 +1,6 @@
 package Assingment.src.Assingment_4;
 import java.util.Scanner;
-public class Wave_Print {
+public class Wave_Print_Row {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int row = sc.nextInt();
