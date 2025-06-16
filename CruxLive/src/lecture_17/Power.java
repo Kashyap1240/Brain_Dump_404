@@ -13,7 +13,8 @@ public class Power {
         if(n == 0){
             return 1;
         }
-        int curr = ath_Power(a, n-1);
-        return curr * a;
+
+        int c = ath_Power(a, n-1);
+        return a * c;
     }
 }

@@ -1,8 +1,9 @@
 package CruxLive.src.lecture_17_Recursion;
-
+import java.util.Scanner;
 public class Factroial {
     public static void main(String[] args) {
-        int n = 5;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         System.out.println(Fact(n));
     }
 
@@ -14,7 +15,6 @@ public class Factroial {
             return 1;
         }
         // small problem
-        int f = Fact(n-1);
-        return f * n;
+        return n * Fact(n-1);
     }
 }
