@@ -14,14 +14,11 @@ public class Generate_Parentheses {
             return;
         }
 
-        // open kahi jayada na ho jaye actual num se
-        // close he kahi jayda na ho jaye, open se
         if(open > n || close > open){
             return;
         }
 
-        // phala call kon sa laga rahe, doesn't matters
-        // kyu ki upar he handle kar rahe wo cases sb
+
         Parentheses(n, open + 1, close, ans+ "(" );
         Parentheses(n, open, close + 1, ans+ ")" );
     }
