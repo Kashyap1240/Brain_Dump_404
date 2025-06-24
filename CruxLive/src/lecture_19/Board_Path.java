@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Board_Path {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = 4;
+        int n = sc.nextInt();
         PrintPath(n,0, "");
     }
 
@@ -11,15 +11,18 @@ public class Board_Path {
         // base case
         if(curr == n){
             System.out.println(ans);
-            return; // 1
+            return;
         }
 
         if(curr > n){
-            return; // 0
+            return;
         }
 
-        PrintPath(n, curr + 1, ans+1); // a
-        PrintPath(n, curr + 2, ans + 2); // b
-        PrintPath(n, curr + 3, ans + 3); // c
+        for(int dice = 1; dice <= n; dice++){
+            PrintPath(n, curr + dice, ans + dice);
+        }
+
+
+
     }
 }
